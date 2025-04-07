@@ -1,0 +1,160 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+  background-image: url('/Users/rk/Desktop/sustainaibility project/New Frontend/public/images/istock.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.homepage-heading {
+  color: whitesmoke;
+}
+
+.loading {
+  color: #999;
+  font-size: 18px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.map-container {
+  width: 80%;
+  max-width: 1000px;
+  height: 500px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.zones-container {
+  width: 80%;
+  max-width: 1000px;
+}
+
+.zones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.zone-card {
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heading-2 {
+  color: whitesmoke;
+}
+
+.graph-item h3 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+canvas {
+  width: 80% !important;
+  max-width: 900px; /* Add max-width to restrict the stretching */
+  min-width: 600px; /* Optional: prevents the chart from being too narrow */
+  height: 500px !important;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+}
+
+.filter-bar {
+  margin: 20px 0;
+  text-align: center;
+  color: white;
+}
+
+.filter-bar select {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.fuel-selection-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.fuel-checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.fuel-checkbox {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.fuel-checkbox input {
+  margin-right: 5px;
+}
+
+.next-button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.next-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.next-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.homepage-heading, .heading-2 {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent dark background */
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Slight shadow */
+  -webkit-text-stroke: 1px black; /* Outline text */
+  font-weight: bold;
+  color: white; /* White text color */
+  display: inline-block;
+  margin: 10px 0; /* Optional: adds some space around the headings */
+}

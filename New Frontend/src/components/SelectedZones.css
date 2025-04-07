@@ -1,0 +1,212 @@
+.selected-zones-heading {
+  color: whitesmoke;
+  text-align: center;
+  padding: 20px;
+}
+
+.selected-zones-page {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-image: url('/Users/rk/Desktop/sustainaibility project/New Frontend/public/images/istock.jpg');  /* Relative path to background */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.zones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px; /* Adjust margin as necessary */
+}
+
+.zone-button {
+  border: none;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.zone-card {
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 240px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.selected-zone {
+  border: 3px solid green; /* Add a green border to highlight selected zone */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Optional: add shadow for emphasis */
+}
+
+.form-section {
+  width: 80%;
+  margin: 20px auto; /* Center the form and add spacing */
+  background-color: rgba(255, 255, 255, 0.9); /* Light background with some transparency */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-group {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+h2, h3 {
+  margin-bottom: 10px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 10px;
+}
+
+.delete-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.delete-button:hover {
+  background-color: #ff1a1a;
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.progress-bar {
+  width: 60%;
+  height: 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar div {
+  height: 100%;
+  background-color: #4caf50;
+  transition: width 0.5s ease;
+}
+
+.status-message {
+  margin-left: 15px;
+  font-size: 16px;
+  color: black;
+}
+
+.next-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.next-button:hover {
+  background-color: #45a049;
+}
+
+h2 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: black;
+}
+
+h4 {
+  color: whitesmoke;
+  padding-bottom: 10px;
+  font-size: larger;
+}
+
+.form-group label {
+  text-align: left;
+  padding-left: 12px;
+}
+
+.form-group input {
+  flex: 2;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.form-group select {
+  flex: 2;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.radio-group label {
+  margin-right: 15px;
+  font-size: 16px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+.legend {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.fuel-options {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.fuel-option {
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.fuel-option input {
+  margin-right: 10px;
+}
